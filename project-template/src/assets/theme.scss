@@ -1,0 +1,10 @@
+// SHST_PROJECT_NAME Theme variables import
+@import "./theme/theme-variables";
+
+// Montserrat fonts import
+//@import "./montserrat-fonts";
+
+// Bootstrap import
+@import "node_modules/bootstrap/scss/bootstrap";
+
+@import "./theme/theme-type";

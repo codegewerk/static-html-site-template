@@ -1,0 +1,18 @@
+//include components/navbar.pug
+//include components/footer.pug
+
+doctype html
+html(lang="de")
+    head
+        meta(charset='UTF-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1.0')
+        title!= title
+
+        link(href='/assets/SHST_PROJECT_NAME.css?ver=' + Date.now(), rel='stylesheet')
+
+
+        
+    body
+        block bodyContent
+
+        script(src='/assets/SHST_PROJECT_NAME.js?ver=' + Date.now())
